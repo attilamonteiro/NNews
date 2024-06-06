@@ -1,0 +1,29 @@
+.news-card {
+    width: 300px; /* Defina a largura desejada para cada card */
+    margin: 10px; /* Adicione margem ao redor de cada card */
+    padding: 20px; /* Adicione espaço interno ao card */
+    border: 1px solid #ccc; /* Adicione uma borda ao redor do card */
+    border-radius: 5px; /* Adicione bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adicione uma sombra ao card */
+  }
+  
+  .news-card h2 {
+    font-size: 18px; /* Defina o tamanho da fonte do título */
+    margin-bottom: 10px; /* Adicione uma margem inferior ao título */
+  }
+  
+  .news-card p {
+    font-size: 14px; /* Defina o tamanho da fonte do texto */
+    line-height: 1.5; /* Defina a altura da linha para melhor legibilidade */
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .newsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Define as colunas */
+    gap: 20px; /* Espaçamento entre os cards */
+  }

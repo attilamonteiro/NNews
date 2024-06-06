@@ -1,0 +1,37 @@
+/* styles/newsDetails.module.css */
+
+.news-details {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    max-width: 800px; /* Limitando a largura para uma melhor legibilidade */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adicionando uma sombra sutil */
+}
+
+.news-details h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333; /* Cor mais escura para o título */
+}
+
+.news-details p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.news-details .author {
+    font-style: italic;
+    color: #666;
+    margin-top: 10px; /* Adicionando um espaço entre o texto e o autor */
+}
+
+.news-details .published-at {
+    font-style: italic;
+    color: #666;
+    margin-top: 10px; /* Adicionando um espaço entre o texto e a data de publicação */
+}
